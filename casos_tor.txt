@@ -1,8 +1,0 @@
-
-MCDERMOTT		Madeleine ->
-MELEJ	ELGART	Gonzalo Melej Elgart -> No hay carpeta a su nombre
-RODRIGUEZ		Isabelle
-SIMS		Hezekiah -> Hay una foto de su pasaporte en su archivo TOR
-SPECTOR		Ruby -> No hay archivos en su carpeta
-WESSELER		Leonie -> No hay carpeta a su nombre
-ZHANG		Yaning -> No hay TOR en su carpeta
