@@ -19,6 +19,6 @@ En caso de no tener Jupyter Notebook instalado de forma local, los cuadernos tam
 ### Consideraciones importantes
 - Las automatizaciones pueden tomar algo de tiempo en ejecutarse, especialmente al importar los datos desde las planillas, pero el tiempo no debería sobrepasar los 20 segundos.
 - Poner especial atención a que los nombres de las planillas, hojas de las planillas y de columnas definidos en el código sean los mismos que los reales.
-  - En caso de que los nombres de los archivos difieran, se puede definir el nombre correcto en el código en las variables `df_courses_global_file` y `df_courses_vrai_file`.
-  - En caso de que los nombres de las hojas de las planillas difierean, se pueden definir los nombres correctos en el parámetro `sheet_name` al momento de llamar la función `read_excel`.
-  - En caso de que los nombres de las columnas difieran, se pueden definir los nombres correctos en las variables en las variables `cols_courses_global`, `cols_courses_vrai`, `cols_students` y `cols_students_dpt` en la automatización de revisión de información de cursos, y en las variables `cols_df_students` y `cols_df_courses` en la automatización de revisión de topes de horario.
+  - **En caso de que los nombres de los archivos difieran**, se puede definir el nombre correcto en el código en las variables `df_courses_global_file` y `df_courses_vrai_file`.
+  - **En caso de que los nombres de las hojas de las planillas difieran**, se pueden definir los nombres correctos en el parámetro `sheet_name` al momento de llamar la función `read_excel`.
+  - **En caso de que los nombres de las columnas difieran**, se pueden definir los nombres correctos en las variables en las variables `cols_courses_global`, `cols_courses_vrai`, `cols_students` y `cols_students_dpt` en la automatización de revisión de información de cursos, y en las variables `cols_df_students` y `cols_df_courses` en la automatización de revisión de topes de horario.
