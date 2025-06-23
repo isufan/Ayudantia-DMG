@@ -1,0 +1,13 @@
+Fallo código:
+
+Estudiante indica curso que tiene un equivalente. Curso indicado no está en el catálogo VRAI pero equivalente sí, aunque curso indicado sí está en el catálogo cognos. Código sugiere info del curso que está en el catálogo VRAI, a pesar de que el curso indicado esté correcto y sea legítimo.
+
+Ejemplo:
+
+IIC3724 Reconocimiento de patrones (indicado)(no está en catálogo VRAI)
+IEE3724 Reconocimiento de patrones (sí está en el catálogo VRAI)
+
+
+Parecieran haber errores de formato al momento de traspasar el csv de revisión de cursos a excel, para los RUT UC en los casos (no sé si algunos o todos) donde hay una K.
+
+Al momento de hacer la revisión de la información de los cursos, eliminar las filas sobrantes AL FINAL, luego de completar la información de los estudiantes.
